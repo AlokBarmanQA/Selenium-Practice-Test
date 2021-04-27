@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="javascriptexecutor.Fetch_Webpage_details">
+      <class name="assertions.OrangeHRM_SoftAssertion_Test">
         <methods>
-          <include name="fetch_webpage_details_test"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="hubspot_Login_with_form_Test"/>
+          <include name="hubspot_Login_with_google_Test"/>
         </methods>
-      </class> <!-- javascriptexecutor.Fetch_Webpage_details -->
+      </class> <!-- assertions.OrangeHRM_SoftAssertion_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
